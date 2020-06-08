@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
+import Lista from './Componentes/ListaDepartamentos';
+
+import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+    <Lista />
   </React.StrictMode>,
   document.getElementById('root')
 );
